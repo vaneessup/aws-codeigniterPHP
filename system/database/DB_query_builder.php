@@ -1609,7 +1609,7 @@ abstract class CI_DB_query_builder extends CI_DB_driver {
 	 *
 	 * @param	string	the table to insert into
 	 * @param	bool	TRUE: reset QB values; FALSE: leave QB values alone
-	 * @return	string
+	 * 
 	 */
 	public function get_compiled_insert($table = '', $reset = TRUE)
 	{
